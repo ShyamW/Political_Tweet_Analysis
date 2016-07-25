@@ -1,2 +1,4 @@
 # Configfile containing API KEYS
 *.ini
+# File Backups
+*~
