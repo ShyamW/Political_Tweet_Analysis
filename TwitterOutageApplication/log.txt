@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Application Ran at: 2016-07-24 21:08:30-04
+	Will Read From Config
+INCORRECT Config, REVERTING BACK TO DEFAULTS
+	Will Log into Twitter
+	Successfully Logged into Twitter
+	Will Fetch Tweets from Twitter
+SOMETHING WENT TERRIBLY WRONG!
+error: [{u'message': u'Bad Authentication data.', u'code': 215}]
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Application Ran at: 2016-07-24 21:09:23-04
+	Will Read From Config
+INCORRECT Config, REVERTING BACK TO DEFAULTS
+	Will Log into Twitter
+	Successfully Logged into Twitter
+	Will Fetch Tweets from Twitter
+SOMETHING WENT TERRIBLY WRONG!
+error: [{u'message': u'Bad Authentication data.', u'code': 215}]
