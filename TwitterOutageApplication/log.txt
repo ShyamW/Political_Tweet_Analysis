@@ -1,18 +1,109 @@
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	Application Ran at: 2016-07-24 21:08:30-04
+	Application Ran at: 2016-07-25 00:52:57-04
 	Will Read From Config
-INCORRECT Config, REVERTING BACK TO DEFAULTS
+	Successfully read Config File
 	Will Log into Twitter
 	Successfully Logged into Twitter
 	Will Fetch Tweets from Twitter
-SOMETHING WENT TERRIBLY WRONG!
-error: [{u'message': u'Bad Authentication data.', u'code': 215}]
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	Application Ran at: 2016-07-24 21:09:23-04
-	Will Read From Config
-INCORRECT Config, REVERTING BACK TO DEFAULTS
-	Will Log into Twitter
-	Successfully Logged into Twitter
-	Will Fetch Tweets from Twitter
-SOMETHING WENT TERRIBLY WRONG!
-error: [{u'message': u'Bad Authentication data.', u'code': 215}]
+	Succesfully Fetched Tweets from Twitter
+	2016-07-25 00:52:58-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+tedcruz
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+tedcruz
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-25 00:52:58-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	Everything Complete

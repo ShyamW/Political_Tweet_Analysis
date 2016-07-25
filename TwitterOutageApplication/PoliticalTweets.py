@@ -68,7 +68,7 @@ def outputTweets(candidate_tweets):
         post = tweet.text
         date_time = tweet.date_time
         author = tweet.author
-        location = tweet.auth_loc
+        location = tweet.source_loc
         output_data = [post, date_time, author, location]
         out.write(str(output_data) + '\n')
 
