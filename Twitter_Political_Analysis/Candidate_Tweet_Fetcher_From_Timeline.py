@@ -1,5 +1,5 @@
 import tweepy
-from Candidate_Tweet_Fetcher_Timeline import CandidateTweet
+from Candidate_Tweet import CandidateTweet
 import Log
 import ConfigParser
 from datetime import *

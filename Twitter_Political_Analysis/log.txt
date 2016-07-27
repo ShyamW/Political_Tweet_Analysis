@@ -107,3 +107,465 @@ A Candidate's Tweet has been Found
 	Political Tweet Found!
 	------------------------------
 	Everything Complete
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Application Ran at: 2016-07-26 04:46:18-04
+	Will Read From Config
+	Successfully read Config File
+	Will Log into Twitter
+	Successfully Logged into Twitter
+	Will Fetch Tweets from Twitter
+	Succesfully Fetched Tweets from Twitter
+	2016-07-26 04:46:18-04
+tedcruz
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	Everything Complete
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Application Ran at: 2016-07-26 04:46:43-04
+	Will Read From Config
+	Successfully read Config File
+	Will Log into Twitter
+	Successfully Logged into Twitter
+	Will Fetch Tweets from Twitter
+	Succesfully Fetched Tweets from Twitter
+	2016-07-26 04:46:43-04
+tedcruz
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+tedcruz
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+POTUS
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 04:46:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	Everything Complete
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Application Ran at: 2016-07-26 05:01:37-04
+	Will Read From Config
+	Successfully read Config File
+	Will Log into Twitter
+	Successfully Logged into Twitter
+	Will Fetch Tweets from Twitter
+	Succesfully Fetched Tweets from Twitter
+	2016-07-26 05:01:37-04
+tedcruz
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	Everything Complete
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Application Ran at: 2016-07-26 06:20:45-04
+	Will Read From Config
+	Successfully read Config File
+	Will Log into Twitter
+	Successfully Logged into Twitter
+	Will Fetch Tweets from Twitter
+	Succesfully Fetched Tweets from Twitter
+	2016-07-26 06:20:45-04
+tedcruz
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:20:45-04
+SOMETHING WENT TERRIBLY WRONG!
+error: 'ascii' codec can't encode character u'\u2026' in position 139: ordinal not in range(128)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Application Ran at: 2016-07-26 06:21:39-04
+	Will Read From Config
+	Successfully read Config File
+	Will Log into Twitter
+	Successfully Logged into Twitter
+	Will Fetch Tweets from Twitter
+	Succesfully Fetched Tweets from Twitter
+	2016-07-26 06:21:39-04
+tedcruz
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+tedcruz
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+tedcruz
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+BernieSanders
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	2016-07-26 06:21:39-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	Political Tweet Found!
+	------------------------------
+	Everything Complete
