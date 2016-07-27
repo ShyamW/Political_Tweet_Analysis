@@ -9,7 +9,7 @@ from StdOutListener import StdOutListener
 @author
 Shyam Thiagarajan
 
-Python Program that fetches tweets from a timeline of political candidates.
+Python Program that streams tweets from a timeline of political candidates.
 """
 consumer_key = ''
 consumer_secret = ''
