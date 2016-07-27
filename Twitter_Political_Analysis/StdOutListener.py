@@ -7,6 +7,7 @@ class StdOutListener(StreamListener):
     """
     def on_data(self, data):
         print data
+        print '!!!'
         CandidateTweet(data)
         return True
 

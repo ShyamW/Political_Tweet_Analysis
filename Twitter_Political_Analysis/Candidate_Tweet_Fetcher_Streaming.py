@@ -82,7 +82,7 @@ def streamTweets():
     api = loginToTwitter()
     Log.record('\tWill Stream Tweets from Twitter')
     stream = Stream(api.auth, StdOutListener())
-    stream.userstream(_with='followings')
+    stream.userstream()
 
 
 """Main Method that updates outage information to a database. Processes 15 tweets"""
