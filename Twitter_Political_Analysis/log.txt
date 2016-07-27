@@ -618,3 +618,40 @@ A Candidate's Tweet has been Found
 	Will Log into Twitter
 	Successfully Logged into Twitter
 	Will Stream Tweets from Twitter
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Application Ran at: 2016-07-27 09:00:46-04
+	Will Read From Config
+	Successfully read Config File
+	Will Log into Twitter
+	Successfully Logged into Twitter
+	Will Stream Tweets from Twitter
+	2016-07-27 09:01:04-04
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Application Ran at: 2016-07-27 09:01:37-04
+	Will Read From Config
+	Successfully read Config File
+	Will Log into Twitter
+	Successfully Logged into Twitter
+	Will Stream Tweets from Twitter
+	2016-07-27 09:33:19-04
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Application Ran at: 2016-07-27 09:40:03-04
+	Will Read From Config
+	Successfully read Config File
+	Will Log into Twitter
+	Successfully Logged into Twitter
+	Will Stream Tweets from Twitter
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Application Ran at: 2016-07-27 19:06:55-04
+	Will Read From Config
+	Successfully read Config File
+	Will Log into Twitter
+	Successfully Logged into Twitter
+	Will Stream Tweets from Twitter
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Application Ran at: 2016-07-27 19:08:33-04
+	Will Read From Config
+	Successfully read Config File
+	Will Log into Twitter
+	Successfully Logged into Twitter
+	Will Stream Tweets from Twitter

@@ -56,21 +56,6 @@ def logEvents():
     Log.record('\tApplication Ran at: ' + time)
 
 
-"""Outputs tweet data to output file
-@param candidate_tweets
-    list of candidate's tweets
-@updates output file content"""
-def outputTweets(candidate_tweets):
-    out = open('candidate_tweets.txt', 'a')
-    for tweet in candidate_tweets:
-        post = tweet.text
-        date_time = tweet.date_time
-        author = tweet.author
-        location = tweet.source_loc
-        output_data = [post, date_time, author, location]
-        out.write(str(output_data) + '\n')
-
-
 """Gets tweets from timeline, gets metadata, and processes them.
 @requires
     successful login to Twitter
@@ -82,7 +67,7 @@ def streamTweets():
     api = loginToTwitter()
     Log.record('\tWill Stream Tweets from Twitter')
     stream = Stream(api.auth, StdOutListener())
-    stream.userstream()
+    stream.userstream(async=False)
 
 
 """Main Method that updates outage information to a database. Processes 15 tweets"""

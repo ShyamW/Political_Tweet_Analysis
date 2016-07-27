@@ -14,3 +14,17 @@ class CandidateTweet(object):
         self.source_loc = str(timeline_tweet.author.location.encode("utf-8").strip('\n'))
         Log.record("A Candidate's Tweet has been Found")
 
+
+    """Outputs tweet data to output file
+    @param self
+        Candidate_Tweet
+    @updates output file content"""
+    def outputTweets(self):
+        out = open('candidate_tweets.txt', 'a')
+        post = self.text
+        date_time = self.date_time
+        author = self.author
+        location = self.source_loc
+        output_data = [post, date_time, author, location]
+        out.write(str(output_data) + '\n')
+
