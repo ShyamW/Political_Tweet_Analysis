@@ -11,7 +11,5 @@ class StdOutListener(StreamListener):
         tweet.outputTweets()
 
 
-
-
     def throwerror(self, status):
         print status
