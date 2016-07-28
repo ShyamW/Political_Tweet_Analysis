@@ -23,8 +23,8 @@ class CandidateTweet():
 
 
     """Outputs tweet data to output file
-    @param candidate_tweets
-        list of candidate's tweets
+    @param self
+        Candidate_Tweet
     @updates output file content"""
     def outputTweets(self):
         out = open('candidate_tweets.txt', 'a')
