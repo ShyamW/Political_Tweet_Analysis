@@ -10,16 +10,14 @@ class CandidateTweet():
         try:
             self.text = str(timeline_tweet.text.encode('ascii', 'ignore').decode("utf-8").strip('\n').strip('\r'))
         except Exception:
-            print 'SECOND TWEET ENCODING'
+            print 'Something Went Wrong'
             print Exception.__doc__
-            self.text = str(timeline_tweet.text.encode("utf-8").strip('\n'))
         self.author = str(timeline_tweet.author.screen_name)
         Log.record(self.author)
         try:
             self.source_loc = str(timeline_tweet.author.location.encode("utf-8").strip('\n'))
         except Exception:
-            print 'SECOND TWEET ENCODING'
-            self.auth_loc = str(timeline_tweet.author.location.encode('ascii', 'ignore').decode("utf-8").strip('\n'))
+            print 'Something Went Wrong'
             print Exception.__doc__
         Log.record("A Candidate's Tweet has been Found")
 
