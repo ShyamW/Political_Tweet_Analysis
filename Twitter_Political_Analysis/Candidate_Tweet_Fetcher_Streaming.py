@@ -68,10 +68,6 @@ def streamTwitter():
     Log.record('\tWill Stream Tweets from Twitter')
     stream = Stream(api.auth, StdOutListener())
     stream.userstream('survey11909')
-<<<<<<< HEAD
-=======
-
->>>>>>> 661f46686ead88173dccd3306c0624ee68094266
 
 
 """Main Method that updates outage information to a database. Processes 15 tweets"""

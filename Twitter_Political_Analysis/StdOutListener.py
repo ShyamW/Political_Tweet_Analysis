@@ -6,14 +6,12 @@ class StdOutListener(StreamListener):
     This is a basic listener that just prints received tweets to stdout.
     """
     def on_status(self, status):
-        print '!!!'
-<<<<<<< HEAD
-        print str(status)
-        return True
-=======
-        tweet = CandidateTweet(status)
-        tweet.outputTweets()
->>>>>>> 661f46686ead88173dccd3306c0624ee68094266
+        try:
+            print '!!!'
+            tweet = CandidateTweet(status)
+            tweet.outputTweets()
+        except:
+            print 'Something went wrong, Continuing to stream'
 
 
     def throwerror(self, status):
