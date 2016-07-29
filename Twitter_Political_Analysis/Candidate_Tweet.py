@@ -1,21 +1,28 @@
 import Log
 from datetime import *
 
-class CandidateTweet(object):
+class CandidateTweet():
+
     def __init__(self, timeline_tweet):
         self.date_time = str(datetime.now().strftime("%Y-%m-%d %H:%M:%S") + "-04")
         Log.record('\t' + self.date_time)
+        print "got data and time"
         try:
-            self.text = str(timeline_tweet.text.encode("utf-8").strip('\n').decode("utf-8"))
-        except:
-            self.text = str(timeline_tweet.text.encode("utf-8").strip('\n'))
+            self.text = str(timeline_tweet.text.encode('ascii', 'ignore').decode("utf-8").strip('\n').strip('\r'))
+        except Exception:
+            print 'Something Went Wrong'
+            print Exception.__doc__
         self.author = str(timeline_tweet.author.screen_name)
         Log.record(self.author)
-        self.source_loc = str(timeline_tweet.author.location.encode("utf-8").strip('\n'))
+        try:
+            self.source_loc = str(timeline_tweet.author.location.encode("utf-8").strip('\n'))
+        except Exception:
+            print 'Something Went Wrong'
+            print Exception.__doc__
         Log.record("A Candidate's Tweet has been Found")
 
 
-    """Outputs tweet data to output file
+    """Outputs Tweet_Analysis data to output file
     @param self
         Candidate_Tweet
     @updates output file content"""

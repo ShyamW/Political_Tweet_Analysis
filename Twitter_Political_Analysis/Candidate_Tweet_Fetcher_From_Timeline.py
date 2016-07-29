@@ -58,7 +58,7 @@ def logEvents():
     Log.record('\tApplication Ran at: ' + time)
 
 
-"""Outputs tweet data to output file
+"""Outputs Tweet_Analysis data to output file
 @param candidate_tweets
     list of candidate's tweets
 @updates output file content"""

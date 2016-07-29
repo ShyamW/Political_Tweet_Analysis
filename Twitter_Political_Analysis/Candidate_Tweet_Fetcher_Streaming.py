@@ -60,7 +60,7 @@ def logEvents():
 @requires
     successful login to Twitter
 """
-def streamTweets():
+def streamTwitter():
     Log.record('\tWill Read From Config')
     readFromConfig()
     Log.record('\tWill Log into Twitter')
@@ -68,12 +68,16 @@ def streamTweets():
     Log.record('\tWill Stream Tweets from Twitter')
     stream = Stream(api.auth, StdOutListener())
     stream.userstream('survey11909')
+<<<<<<< HEAD
+=======
+
+>>>>>>> 661f46686ead88173dccd3306c0624ee68094266
 
 
 """Main Method that updates outage information to a database. Processes 15 tweets"""
 def main():
     logEvents()
-    streamTweets()
+    streamTwitter()
 
 
 if __name__ == '__main__':
