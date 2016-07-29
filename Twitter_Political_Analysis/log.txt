@@ -811,3 +811,21 @@ A Candidate's Tweet has been Found
 	2016-07-28 23:51:01-04
 realDonaldTrump
 A Candidate's Tweet has been Found
+	2016-07-28 23:52:49-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-07-28 23:54:25-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-07-28 23:57:08-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-07-28 23:59:07-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-07-29 00:00:08-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-07-29 00:29:49-04
+HillaryClinton
+A Candidate's Tweet has been Found
