@@ -22,7 +22,7 @@ class CandidateTweet():
         Log.record("A Candidate's Tweet has been Found")
 
 
-    """Outputs tweet data to output file
+    """Outputs Tweet_Analysis data to output file
     @param self
         Candidate_Tweet
     @updates output file content"""
