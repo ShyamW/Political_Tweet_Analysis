@@ -7,8 +7,7 @@ class StdOutListener(StreamListener):
     """
     def on_data(self, status):
         print '!!!'
-        tweet = CandidateTweet(status)
-        tweet.outputTweets()
+        print str(status)
         return True
 
     def on_error(self, status):
