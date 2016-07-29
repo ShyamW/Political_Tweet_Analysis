@@ -70,7 +70,6 @@ def streamTwitter():
     stream.userstream('survey11909')
 
 
-
 """Main Method that updates outage information to a database. Processes 15 tweets"""
 def main():
     logEvents()
