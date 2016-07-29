@@ -1,12 +1,13 @@
 # find word frequencies, word clouds, what words candidates end tweets with, remove punctuation later
 
 
-
-tweet_list = []
-date_list = []
-person_list = []
-location_list = []
-create_tweet_lists(filename)
+class tweets:
+    def __init__(self, filename):
+        self.tweet_list = []
+        self.date_list = []
+        self.person_list = []
+        self.location_list = []
+        self.create_tweet_lists(filename)
 
 """Parses through Tweet_Analysis list and creates several lists corresponding to Tweet_Analysis attributes"""
 def create_tweet_lists(self, filename):
