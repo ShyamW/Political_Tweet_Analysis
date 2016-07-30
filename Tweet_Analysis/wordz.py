@@ -14,10 +14,9 @@ class tweets:
     """Parses through Tweet_Analysis list and creates several lists corresponding to Tweet_Analysis attributes"""
     def create_tweet_lists(self, filename):
         with open(filename, 'r') as f:
-            for tweets in f:
-                tweets = tweets.encode('ascii', 'ignore').decode("utf-8").strip('\n')
-                print(str(tweets))
-                tweet = eval(tweets)
+            for tweet in f:
+                tweet = tweet.strip('\n')
+                tweet = eval(tweet)
                 fixed_tweet = self.fixTweet(tweet[0])
                 self.tweet_list.append(fixed_tweet)
                 self.date_list.append(tweet[1])
@@ -26,7 +25,9 @@ class tweets:
 
     """Removes punctuation, URLS etc. from Tweet_Analysis"""
     def fixTweet(self, tweet):
-        return tweet.replace(',','').replace('.','')
+        fixed_tweet = tweet.replace(',','').replace('.','').strip('\n').strip('\r')
+        print fixed_tweet
+        return fixed_tweet
 
 
     """Returns dictionary with keys representing candidate names and values representing number of
@@ -41,7 +42,7 @@ class tweets:
         return self.tweet_freq
 
 
-    """Returns a 2D dictionary with keys = candidate names and values = dictionary consisting of their word counts"""
+    """Returns a JSON object with {candidate names: {word = wordcount}}"""
     def get_word_frequencies(self):
         self.word_frequencies = {}
         for index in range(len(self.tweet_list)):
@@ -57,7 +58,6 @@ class tweets:
     def individual_tweet_frequency(self, tweet):
         d = {}
         l = tweet.split(' ')
-
         for words in l:
             if 'https' not in words:
                 if words not in d:
@@ -75,9 +75,16 @@ class tweets:
                 self.word_frequencies[tweeter][words] += word_counts[words]
 
 
+def main():
+    initial_filename = '/home/dragon/Programs/TwitterApp/Tweet_Analysis/test.txt'
+    test = tweets(initial_filename)
+    print(test.getTweetFrequencies())
+    candidates_word_maps = test.get_word_frequencies()
+    print candidates_word_maps
+    for keys,values in candidates_word_maps.items():
+        print keys
+        print values
 
 
-initial_filename = '/Users/jason/PycharmProjects/Projects/Tweet_Analysis/test.txt'
-test = tweets(initial_filename)
-print(test.getTweetFrequencies())
-print(test.get_word_frequencies())
+if __name__ == '__main__':
+    main()
