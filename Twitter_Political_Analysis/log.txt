@@ -1084,3 +1084,33 @@ A Candidate's Tweet has been Found
 	Successfully Logged into Twitter
 	Will Stream Tweets from Twitter
 
+	2016-07-29 19:39:08-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-07-29 19:57:12-04
+tedcruz
+A Candidate's Tweet has been Found
+	2016-07-29 20:19:20-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-07-29 20:34:56-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-07-29 20:58:01-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-07-29 21:01:47-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-07-29 21:40:14-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-07-29 22:12:01-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-07-29 23:03:47-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-07-29 23:23:01-04
+realDonaldTrump
+A Candidate's Tweet has been Found

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc97e4f-439e-467e-a009-e8e83b3ecf85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tweet_Analysis/test.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tweet_Analysis/wordz.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/Candidate_Tweet.py" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/Candidate_Tweet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/Candidate_Tweet_Fetcher_From_Timeline.py" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/Candidate_Tweet_Fetcher_From_Timeline.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/Candidate_Tweet_Fetcher_Streaming.py" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/Candidate_Tweet_Fetcher_Streaming.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/StdOutListener.py" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/StdOutListener.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/log.txt" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/log.txt" />
     </list>
     <ignored path="TwitterApp.iws" />
@@ -33,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="458" column="7" selection-start-line="458" selection-start-column="7" selection-end-line="458" selection-end-column="7" />
+              <caret line="468" column="7" selection-start-line="468" selection-start-column="7" selection-end-line="468" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -52,8 +47,8 @@
       <file leaf-file-name="log.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="1074" column="33" selection-start-line="1074" selection-start-column="33" selection-end-line="1074" selection-end-column="33" />
+            <state relative-caret-position="510">
+              <caret line="1087" column="13" selection-start-line="1087" selection-start-column="13" selection-end-line="1087" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -616,15 +611,15 @@
     <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="458" column="7" selection-start-line="458" selection-start-column="7" selection-end-line="458" selection-end-column="7" />
+          <caret line="468" column="7" selection-start-line="468" selection-start-column="7" selection-end-line="468" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="1074" column="33" selection-start-line="1074" selection-start-column="33" selection-end-line="1074" selection-end-column="33" />
+        <state relative-caret-position="510">
+          <caret line="1087" column="13" selection-start-line="1087" selection-start-column="13" selection-end-line="1087" selection-end-column="13" />
           <folding />
         </state>
       </provider>
