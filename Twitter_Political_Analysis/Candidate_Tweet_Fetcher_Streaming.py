@@ -9,7 +9,8 @@ from StdOutListener import StdOutListener
 @author
 Shyam Thiagarajan
 
-Python Program that streams tweets from a timeline of political candidates.
+Python Program that streams tweets from a timeline of political candidates and records tweets and relevant metadata
+(author and timestamp) for future analysis.
 """
 consumer_key = ''
 consumer_secret = ''

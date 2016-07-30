@@ -8,7 +8,8 @@ from datetime import *
 @author
 Shyam Thiagarajan
 
-Python Program that fetches tweets from a timeline of political candidates.
+Python Program that fetches past tweets from a timeline of political candidates and records tweets and relevant metadata
+(author and timestamp) for future analysis.
 """
 candidate_tweets = []
 consumer_key = ''
