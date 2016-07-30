@@ -1252,3 +1252,9 @@ A Candidate's Tweet has been Found
 	2016-07-30 18:31:32-04
 HillaryClinton
 A Candidate's Tweet has been Found
+	2016-07-30 18:54:55-04
+marcorubio
+A Candidate's Tweet has been Found
+	2016-07-30 19:00:12-04
+realDonaldTrump
+A Candidate's Tweet has been Found

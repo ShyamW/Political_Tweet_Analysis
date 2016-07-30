@@ -3,11 +3,9 @@
 
 class TweetAnalysis:
     def __init__(self):
-        self.tweet_list = []
-        self.date_list = []
-        self.person_list = []
-        self.location_list = []
+        self.twitter_data = []
         self.file_name = ''
+        self.tweet_freq = {}
 
 
     """Sets the file path to read tweet data from.
@@ -20,48 +18,54 @@ class TweetAnalysis:
         self.file_name = file_path
 
 
-    """Parses through @code data_file and creates several lists corresponding to Tweet_Analysis attributes
+    """Stores contents in @code data_file and aggregates tweet information for all candidates.
     @param self
-        Tweet Analysis Object"""
+        Tweet Analysis Object
+    @updates self.twitter_data
+        Matrix representing aggregated tweet data
+        Matrix = [[tweet, date, author, tweet location], ..., [tweet, date, author, tweet location]]
+    """
     def create_tweet_lists(self):
         with open(self.file_name, 'r') as data_file:
             for tweet_info in data_file:
-                tweet_info = tweet_info.strip('\n')
-                tweet_info = eval(tweet_info)
-                print 'AAA'
+                tweet_info = eval(tweet_info.strip('\n'))   # Convert line (list literal) to list
+                tweet_info[0] = self.formatTweet(tweet_info[0])
                 print tweet_info
-                print 'AAA'
-                fixed_tweet = self.fixTweet(tweet_info[0])
-                self.tweet_list.append(fixed_tweet)
-                self.date_list.append(tweet_info[1])
-                self.person_list.append(tweet_info[2])
-                self.location_list.append(tweet_info[3])
+                self.twitter_data.append(tweet_info)
 
-    """Removes punctuation, URLS etc. from Tweet_Analysis"""
-    def fixTweet(self, tweet):
-        fixed_tweet = tweet.replace(',','').replace('.','').strip('\n').strip('\r').replace('  ',' ').decode('utf-8')
-        print fixed_tweet
-        return fixed_tweet
+
+    """Removes useless punctuation from tweet that would interfere in comparing words
+    @param self
+        Tweet_Analysis object
+    @param tweet
+        tweet to format
+    @return formatted_tweet"""
+    def formatTweet(self, tweet):
+        formatted_tweet = str(tweet.replace(',','').replace('.','').replace('\n','').strip('\r').replace('  ',' '))\
+            .replace(':','').upper().lstrip().rstrip().replace('"','')
+        if 'HTTP' in formatted_tweet:
+            formatted_tweet = formatted_tweet.split('HTTP')[0]  # remove tweet content after url
+        return formatted_tweet
 
 
     """Returns dictionary with keys representing candidate names and values representing number of
     respective tweets"""
     def getTweetFrequencies(self):
-        self.tweet_freq = {}
-        for names in self.person_list:
-            if names not in self.tweet_freq:
-                self.tweet_freq[names] = 1
+        for tweet_data in self.twitter_data:
+            author = tweet_data[2]
+            if author not in self.tweet_freq:
+                self.tweet_freq[author] = 1
             else:
-                self.tweet_freq[names] += 1
+                self.tweet_freq[author] += 1
         return self.tweet_freq
 
 
     """Returns a JSON object with {candidate names: {word = wordcount}}"""
     def get_word_frequencies(self):
         self.word_frequencies = {}
-        for index in range(len(self.tweet_list)):
-            tweeter = self.person_list[index]
-            tweet = self.tweet_list[index]
+        for index in range(len(self.twitter_data)):
+            tweeter = self.twitter_data[index][2]
+            tweet = self.twitter_data[index][0]
             if tweeter not in self.word_frequencies:
                 self.word_frequencies[tweeter] = {}
             freq_list = self.individual_tweet_frequency(tweet)

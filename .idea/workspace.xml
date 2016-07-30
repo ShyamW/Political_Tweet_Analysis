@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc97e4f-439e-467e-a009-e8e83b3ecf85" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tweet_Analysis/test.txt" afterPath="$PROJECT_DIR$/Tweet_Analysis/test.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tweet_Analysis/wordz.py" afterPath="$PROJECT_DIR$/Tweet_Analysis/wordz.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/log.txt" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/log.txt" />
@@ -30,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="165" column="3" selection-start-line="165" selection-start-column="3" selection-end-line="165" selection-end-column="3" />
+              <caret line="167" column="3" selection-start-line="167" selection-start-column="3" selection-end-line="167" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -50,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/log.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2814">
-              <caret line="1206" column="26" selection-start-line="1206" selection-start-column="26" selection-end-line="1206" selection-end-column="26" />
+              <caret line="1212" column="26" selection-start-line="1212" selection-start-column="26" selection-end-line="1212" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -83,8 +82,8 @@
       <file leaf-file-name="wordz.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tweet_Analysis/wordz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="306">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -164,8 +163,8 @@
         <option value="$PROJECT_DIR$/Twitter_Political_Analysis/Candidate_Tweet_Fetcher_Streaming.py" />
         <option value="$PROJECT_DIR$/Twitter_Political_Analysis/Candidate_Tweet_Fetcher_From_Timeline.py" />
         <option value="$PROJECT_DIR$/Tweet_Analysis/test.txt" />
-        <option value="$PROJECT_DIR$/Tweet_Analysis/wordz.py" />
         <option value="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" />
+        <option value="$PROJECT_DIR$/Tweet_Analysis/wordz.py" />
       </list>
     </option>
   </component>
@@ -505,7 +504,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31171548" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31903765" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31903765" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -639,7 +638,7 @@
     <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2814">
-          <caret line="1206" column="26" selection-start-line="1206" selection-start-column="26" selection-end-line="1206" selection-end-column="26" />
+          <caret line="1212" column="26" selection-start-line="1212" selection-start-column="26" selection-end-line="1212" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -675,7 +674,7 @@
     <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="165" column="3" selection-start-line="165" selection-start-column="3" selection-end-line="165" selection-end-column="3" />
+          <caret line="167" column="3" selection-start-line="167" selection-start-column="3" selection-end-line="167" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -692,8 +691,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tweet_Analysis/wordz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="306">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
