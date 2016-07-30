@@ -25,7 +25,7 @@ class tweets:
 
     """Removes punctuation, URLS etc. from Tweet_Analysis"""
     def fixTweet(self, tweet):
-        fixed_tweet = tweet.replace(',','').replace('.','').strip('\n').strip('\r')
+        fixed_tweet = tweet.replace(',','').replace('.','').strip('\n').strip('\r').replace('  ',' ')
         print fixed_tweet
         return fixed_tweet
 
