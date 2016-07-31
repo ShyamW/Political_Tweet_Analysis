@@ -79,15 +79,6 @@ class TweetAnalysis:
         return self.tweet_freq
 
 
-    """Aggregates word frequencies from """
-    def aggregateWordFreq(self, tweet_word_freq, author):
-        for words in tweet_word_freq:
-            if words not in self.word_frequencies[author]:
-                self.word_frequencies[author][words] = tweet_word_freq[words]
-            else:
-                self.word_frequencies[author][words] += tweet_word_freq[words]
-
-
     """Creates a JSON object with {candidate names: {word = wordcount}}.
     @param self
         Tweet Analysis Object
@@ -98,8 +89,7 @@ class TweetAnalysis:
             if author not in self.word_frequencies:
                 self.word_frequencies[author] = {}
             tweet = tweet_info[0]
-            tweet_word_freq = self.detTweetWordFreq(tweet)
-            self.aggregateWordFreq(tweet_word_freq, author)
+            self.detTweetWordFreq(tweet, author)
 
 
     """Gets the tweet word frequency dictionary.
@@ -111,16 +101,14 @@ class TweetAnalysis:
 
 
     """Returns dictionary of word frequencies for an individual Tweet"""
-    def detTweetWordFreq(self, tweet):
-        word_freq = {}
+    def detTweetWordFreq(self, tweet, author):
+        word_frequencies = self.word_frequencies[author]
         all_words = tweet.split(' ')
         for word in all_words:
-                if word in word_freq:
-                    word_freq[word] += 1
+                if word in word_frequencies:
+                    word_frequencies[word] += 1
                 else:
-                    word_freq[word] = 1
-        return word_freq
-
+                    word_frequencies[word] = 1
 
 
 def main():
@@ -131,9 +119,9 @@ def main():
     print test.getTweetFrequencies()
     test.detWordFrequencies()
     candidates_word_maps = test.getWordFrequencies()
-    for keys, values in candidates_word_maps.items():
-        print keys
-        print values
+    for author, word_freq in candidates_word_maps.items():
+        print author
+        print word_freq
 
 
 if __name__ == '__main__':

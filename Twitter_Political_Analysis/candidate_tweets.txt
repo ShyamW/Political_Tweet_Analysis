@@ -535,3 +535,4 @@
 ['Thank you to all of the television viewers that made my speech at the Republican National Convention #1 over Crooked Hillary and DEMS.', '2016-07-30 19:00:12-04', 'realDonaldTrump', 'New York, NY']
 ["It's time to end religious bigotry and build a nation in which we all stand together and condemn the anti-Muslim rhetoric we're hearing.", '2016-07-30 19:57:28-04', 'BernieSanders', 'Vermont']
 ['The American people have always made this country great. https://t.co/agqzKq3jOi', '2016-07-30 20:40:37-04', 'HillaryClinton', 'New York, NY']
+['A night to remember.\nhttps://t.co/lJ2M2QtFJD', '2016-07-30 21:26:51-04', 'HillaryClinton', 'New York, NY']
