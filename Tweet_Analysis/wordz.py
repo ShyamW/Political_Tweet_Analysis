@@ -6,6 +6,7 @@ class TweetAnalysis:
         self.twitter_data = []
         self.file_name = ''
         self.tweet_freq = {}
+        self.word_frequencies = {}
 
 
     """Sets the file path to read tweet data from.
@@ -18,14 +19,13 @@ class TweetAnalysis:
         self.file_name = file_path
 
 
-    """Stores contents in @code data_file and aggregates tweet information for all candidates.
+    """Reads tweet information from @code data_file and aggregates it for all candidates.
     @param self
         Tweet Analysis Object
     @updates self.twitter_data
         Matrix representing aggregated tweet data
-        Matrix = [[tweet, date, author, tweet location], ..., [tweet, date, author, tweet location]]
-    """
-    def create_tweet_lists(self):
+        Matrix = [[tweet, date, author, tweet location], ..., [tweet, date, author, tweet location]]"""
+    def createTweetLists(self):
         with open(self.file_name, 'r') as data_file:
             for tweet_info in data_file:
                 tweet_info = eval(tweet_info.strip('\n'))   # Convert line (list literal) to list
@@ -34,72 +34,103 @@ class TweetAnalysis:
                 self.twitter_data.append(tweet_info)
 
 
-    """Removes useless punctuation from tweet that would interfere in comparing words
+    """Removes useless punctuation and formatting from tweet that would interfere in calculating word counts.
     @param self
         Tweet_Analysis object
     @param tweet
         tweet to format
     @return formatted_tweet"""
     def formatTweet(self, tweet):
-        formatted_tweet = str(tweet.replace(',','').replace('.','').replace('\n','').strip('\r').replace('  ',' '))\
-            .replace(':','').upper().lstrip().rstrip().replace('"','')
-        if 'HTTP' in formatted_tweet:
-            formatted_tweet = formatted_tweet.split('HTTP')[0]  # remove tweet content after url
+        forbidden_characters = [',', '.', ':', '"', '(', ')']
+        for forbidden_character in forbidden_characters:
+            tweet = str(tweet.replace(forbidden_character, ''))
+        if 'http' in tweet:
+            tweet = tweet.split('http')[0]  # remove tweet content after url
+        formatted_tweet = tweet.replace('\n', '').strip('\r').replace('  ', ' ').upper().lstrip().rstrip()
         return formatted_tweet
 
 
-    """Returns dictionary with keys representing candidate names and values representing number of
-    respective tweets"""
-    def getTweetFrequencies(self):
+    """Determines tweet frequencies for each candidate.
+    @param self
+        Tweet Analysis object
+    @updates
+        self.tweet_freq
+    @ensures
+        if author not in tweet_freq dictionary:
+            author is added as key
+            value = 1
+        else:
+            author's value (tweet frequency) is incremented
+    """
+    def detTweetFrequencies(self):
         for tweet_data in self.twitter_data:
             author = tweet_data[2]
             if author not in self.tweet_freq:
                 self.tweet_freq[author] = 1
             else:
                 self.tweet_freq[author] += 1
+
+
+    """Gets the tweet Frequency dictionary.
+    @param self
+        Tweet Analysis object
+    @return self.tweet_freq"""
+    def getTweetFrequencies(self):
         return self.tweet_freq
 
 
-    """Returns a JSON object with {candidate names: {word = wordcount}}"""
-    def get_word_frequencies(self):
-        self.word_frequencies = {}
-        for index in range(len(self.twitter_data)):
-            tweeter = self.twitter_data[index][2]
-            tweet = self.twitter_data[index][0]
-            if tweeter not in self.word_frequencies:
-                self.word_frequencies[tweeter] = {}
-            freq_list = self.individual_tweet_frequency(tweet)
-            self.increment_frequency_dict(freq_list, tweeter)
+    """Aggregates word frequencies from """
+    def aggregateWordFreq(self, tweet_word_freq, author):
+        for words in tweet_word_freq:
+            if words not in self.word_frequencies[author]:
+                self.word_frequencies[author][words] = tweet_word_freq[words]
+            else:
+                self.word_frequencies[author][words] += tweet_word_freq[words]
+
+
+    """Creates a JSON object with {candidate names: {word = wordcount}}.
+    @param self
+        Tweet Analysis Object
+    @updates self.word_frequencies"""
+    def detWordFrequencies(self):
+        for tweet_info in self.twitter_data:
+            author = tweet_info[2]
+            if author not in self.word_frequencies:
+                self.word_frequencies[author] = {}
+            tweet = tweet_info[0]
+            tweet_word_freq = self.detTweetWordFreq(tweet)
+            self.aggregateWordFreq(tweet_word_freq, author)
+
+
+    """Gets the tweet word frequency dictionary.
+        @param self
+            Tweet Analysis object
+        @return word frequency dictionary"""
+    def getWordFrequencies(self):
         return self.word_frequencies
 
-    """Returns dictionary of word frequencies for an individual Tweet_Analysis. """
-    def individual_tweet_frequency(self, tweet):
-        d = {}
-        l = tweet.split(' ')
-        for words in l:
-            if 'https' not in words:
-                if words not in d:
-                    d[words] = 1
-                else:
-                    d[words] += 1
-        return d
 
-    """Appropriately increments word frequencies dictionary for words in the Tweet_Analysis"""
-    def increment_frequency_dict(self, word_counts, tweeter):
-        for words in word_counts:
-            if words not in self.word_frequencies[tweeter]:
-                self.word_frequencies[tweeter][words] = word_counts[words]
-            else:
-                self.word_frequencies[tweeter][words] += word_counts[words]
+    """Returns dictionary of word frequencies for an individual Tweet"""
+    def detTweetWordFreq(self, tweet):
+        word_freq = {}
+        all_words = tweet.split(' ')
+        for word in all_words:
+                if word in word_freq:
+                    word_freq[word] += 1
+                else:
+                    word_freq[word] = 1
+        return word_freq
+
 
 
 def main():
     test = TweetAnalysis()
     test.setFilePath('/home/dragon/Programs/TwitterApp/Twitter_Political_Analysis/candidate_tweets.txt')
-    test.create_tweet_lists()
-    print(test.getTweetFrequencies())
-    candidates_word_maps = test.get_word_frequencies()
-    print candidates_word_maps
+    test.createTweetLists()
+    test.detTweetFrequencies()
+    print test.getTweetFrequencies()
+    test.detWordFrequencies()
+    candidates_word_maps = test.getWordFrequencies()
     for keys, values in candidates_word_maps.items():
         print keys
         print values

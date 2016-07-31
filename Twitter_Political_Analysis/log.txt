@@ -1258,3 +1258,9 @@ A Candidate's Tweet has been Found
 	2016-07-30 19:00:12-04
 realDonaldTrump
 A Candidate's Tweet has been Found
+	2016-07-30 19:57:28-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-07-30 20:40:37-04
+HillaryClinton
+A Candidate's Tweet has been Found
