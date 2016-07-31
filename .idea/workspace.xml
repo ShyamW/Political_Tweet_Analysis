@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc97e4f-439e-467e-a009-e8e83b3ecf85" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/Teach_Redis_Candidate_Tweets.py" afterPath="$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/Teach_Redis_Candidate_Tweets.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/log.txt" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/log.txt" />
     </list>
     <ignored path="TwitterApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/log.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2814">
-              <caret line="1227" column="26" selection-start-line="1227" selection-start-column="26" selection-end-line="1227" selection-end-column="26" />
+              <caret line="1230" column="26" selection-start-line="1230" selection-start-column="26" selection-end-line="1230" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -65,14 +67,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Teach_Redis_Candidate_Tweets.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Teach_Redis_Candidate_Tweets.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/Teach_Redis_Candidate_Tweets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="-160">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="162" column="61" selection-start-line="162" selection-start-column="61" selection-end-line="162" selection-end-column="61" />
+              <caret line="163" column="61" selection-start-line="163" selection-start-column="61" selection-end-line="163" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -121,16 +133,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Log.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/Log.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="52" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -164,6 +166,7 @@
         <option value="$PROJECT_DIR$/Tweet_Analysis/wordz.py" />
         <option value="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" />
         <option value="$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/Teach_Redis_Candidate_Tweets.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -214,34 +217,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TwitterApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TwitterApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TwitterApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Twitter_Political_Analysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TwitterApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TwitterApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tweet_Analysis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -662,7 +637,7 @@
     <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2814">
-          <caret line="1227" column="26" selection-start-line="1227" selection-start-column="26" selection-end-line="1227" selection-end-column="26" />
+          <caret line="1230" column="26" selection-start-line="1230" selection-start-column="26" selection-end-line="1230" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -724,18 +699,26 @@
     <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="162" column="61" selection-start-line="162" selection-start-column="61" selection-end-line="162" selection-end-column="61" />
+          <caret line="163" column="61" selection-start-line="163" selection-start-column="61" selection-end-line="163" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/Teach_Redis_Candidate_Tweets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="-160">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

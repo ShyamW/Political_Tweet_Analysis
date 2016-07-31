@@ -1273,3 +1273,6 @@ A Candidate's Tweet has been Found
 	2016-07-30 22:11:40-04
 JohnKasich
 A Candidate's Tweet has been Found
+	2016-07-30 22:19:22-04
+JohnKasich
+A Candidate's Tweet has been Found
