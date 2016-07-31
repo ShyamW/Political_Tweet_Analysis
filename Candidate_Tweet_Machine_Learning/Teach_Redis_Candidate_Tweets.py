@@ -1,5 +1,5 @@
-# import redis
-# import redisbayes
+import redis
+import redisbayes
 """Teaches Redis how to properly associate text with a political candidate by teaching it candidate's tweets.
 @author Shyam Thiagarajan
 """
