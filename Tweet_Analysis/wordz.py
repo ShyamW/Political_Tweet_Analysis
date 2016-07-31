@@ -19,6 +19,23 @@ class TweetAnalysis:
         self.file_name = file_path
 
 
+    """Removes useless punctuation and formatting from tweet that would interfere in calculating word counts.
+        @param self
+            Tweet_Analysis object
+        @param tweet
+            tweet to format
+        @return formatted_tweet"""
+
+    def formatTweet(self, tweet):
+        forbidden_characters = [',', '.', ':', '"', '(', ')']
+        for forbidden_character in forbidden_characters:
+            tweet = str(tweet.replace(forbidden_character, ''))
+        if 'http' in tweet:
+            tweet = tweet.split('http')[0]  # remove tweet content after url
+        formatted_tweet = tweet.replace('\n', '').strip('\r').replace('  ', ' ').upper().lstrip().rstrip()
+        return formatted_tweet
+
+
     """Reads tweet information from @code data_file and aggregates it for all candidates.
     @param self
         Tweet Analysis Object
@@ -32,22 +49,6 @@ class TweetAnalysis:
                 tweet_info[0] = self.formatTweet(tweet_info[0])
                 print tweet_info
                 self.twitter_data.append(tweet_info)
-
-
-    """Removes useless punctuation and formatting from tweet that would interfere in calculating word counts.
-    @param self
-        Tweet_Analysis object
-    @param tweet
-        tweet to format
-    @return formatted_tweet"""
-    def formatTweet(self, tweet):
-        forbidden_characters = [',', '.', ':', '"', '(', ')']
-        for forbidden_character in forbidden_characters:
-            tweet = str(tweet.replace(forbidden_character, ''))
-        if 'http' in tweet:
-            tweet = tweet.split('http')[0]  # remove tweet content after url
-        formatted_tweet = tweet.replace('\n', '').strip('\r').replace('  ', ' ').upper().lstrip().rstrip()
-        return formatted_tweet
 
 
     """Determines tweet frequencies for each candidate.
