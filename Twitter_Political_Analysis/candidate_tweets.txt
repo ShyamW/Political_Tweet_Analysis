@@ -539,3 +539,4 @@
 ['If corporate America wants us to buy their products, they damn well better start manufacturing them here in America.', '2016-07-30 21:49:06-04', 'BernieSanders', 'Vermont']
 ["There's only one way to talk about Gold Star parents: with honor and respect. Capt. Kahn is a hero. Together, we should pray for his family.", '2016-07-30 22:11:40-04', 'JohnKasich', 'Westerville, Ohio']
 ["There's only one way to talk about Gold Star parents: with honor and respect. Capt. Khan is a hero. Together, we should pray for his family.", '2016-07-30 22:19:22-04', 'JohnKasich', 'Westerville, Ohio']
+["John Kasich once again proving he's the grown up.  https://t.co/9V5eqjoCeR", '2016-07-30 22:21:26-04', 'JohnKasich', 'Westerville, Ohio']

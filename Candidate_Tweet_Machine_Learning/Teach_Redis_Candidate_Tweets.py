@@ -21,9 +21,8 @@ def formatTweet(tweet):
 
 """Stores tweets into @code companies
 @param file_name
-    file containing one column of tweets
-        ex: We are experiencing an outage in Atlanta, GA.
-            A tree fell over and knocked a power line out!
+    file containing list of tweet_info
+        tweet_info = [tweet, time, author, location]
 @returns tweets
     list of tweets"""
 def readTweets(file_name):
