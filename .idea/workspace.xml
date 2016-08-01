@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc97e4f-439e-467e-a009-e8e83b3ecf85" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/Teach_Redis_Candidate_Tweets.py" afterPath="$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/Teach_Redis_Candidate_Tweets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tweet_Analysis/wordz.py" afterPath="$PROJECT_DIR$/Tweet_Analysis/wordz.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/log.txt" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/log.txt" />
     </list>
     <ignored path="TwitterApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +40,8 @@
       <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2814">
-              <caret line="1230" column="26" selection-start-line="1230" selection-start-column="26" selection-end-line="1230" selection-end-column="26" />
+            <state relative-caret-position="3948">
+              <caret line="1314" column="26" selection-start-line="1314" selection-start-column="26" selection-end-line="1314" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -55,24 +59,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wordz.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wordz.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tweet_Analysis/wordz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="35" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="468">
+              <caret line="116" column="37" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
+              <folding>
+                <element signature="e#108#139#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Teach_Redis_Candidate_Tweets.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Teach_Redis_Candidate_Tweets.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/Teach_Redis_Candidate_Tweets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="522">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="163" column="61" selection-start-line="163" selection-start-column="61" selection-end-line="163" selection-end-column="61" />
+              <caret line="191" column="61" selection-start-line="191" selection-start-column="61" selection-end-line="191" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -103,18 +119,6 @@
             <state relative-caret-position="578">
               <caret line="319" column="0" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StdOutListener.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/StdOutListener.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -161,10 +165,11 @@
         <option value="$PROJECT_DIR$/Twitter_Political_Analysis/Candidate_Tweet_Fetcher_Streaming.py" />
         <option value="$PROJECT_DIR$/Twitter_Political_Analysis/Candidate_Tweet_Fetcher_From_Timeline.py" />
         <option value="$PROJECT_DIR$/Tweet_Analysis/test.txt" />
-        <option value="$PROJECT_DIR$/Tweet_Analysis/wordz.py" />
         <option value="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/Teach_Redis_Candidate_Tweets.py" />
+        <option value="$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/test.py" />
+        <option value="$PROJECT_DIR$/Tweet_Analysis/wordz.py" />
       </list>
     </option>
   </component>
@@ -228,6 +233,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Tweet_Analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TwitterApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TwitterApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Candidate_Tweet_Machine_Learning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -246,24 +265,7 @@
       <recent name="$PROJECT_DIR$/Twitter_Political_Analysis" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Teach_Redis_Candidate_Tweets">
-    <configuration default="false" name="PoliticalTweets" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TwitterOutageApplication" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TwitterApp" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TwitterOutageApplication/PoliticalTweets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.wordz">
     <configuration default="false" name="Candidate_Tweet_Fetcher_Streaming" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,6 +330,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TwitterApp" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/Teach_Redis_Candidate_Tweets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Candidate_Tweet_Machine_Learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TwitterApp" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -467,19 +486,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.PoliticalTweets" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Candidate_Tweet_Fetcher_Streaming" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Candidate_Tweet_Fetcher_From_Timeline" />
-      <item index="3" class="java.lang.String" itemvalue="Python.wordz" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Teach_Redis_Candidate_Tweets" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Candidate_Tweet_Fetcher_Streaming" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Candidate_Tweet_Fetcher_From_Timeline" />
+      <item index="2" class="java.lang.String" itemvalue="Python.wordz" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Teach_Redis_Candidate_Tweets" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Teach_Redis_Candidate_Tweets" />
-        <item index="1" class="java.lang.String" itemvalue="Python.wordz" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Candidate_Tweet_Fetcher_Streaming" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Candidate_Tweet_Fetcher_From_Timeline" />
-        <item index="4" class="java.lang.String" itemvalue="Python.PoliticalTweets" />
+        <item index="0" class="java.lang.String" itemvalue="Python.wordz" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Teach_Redis_Candidate_Tweets" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Candidate_Tweet_Fetcher_Streaming" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Candidate_Tweet_Fetcher_From_Timeline" />
       </list>
     </recent_temporary>
   </component>
@@ -634,8 +653,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2814">
-          <caret line="1230" column="26" selection-start-line="1230" selection-start-column="26" selection-end-line="1230" selection-end-column="26" />
+        <state relative-caret-position="3948">
+          <caret line="1314" column="26" selection-start-line="1314" selection-start-column="26" selection-end-line="1314" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -676,28 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/Candidate_Tweet_Fetcher_Streaming.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tweet_Analysis/wordz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="35" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="163" column="61" selection-start-line="163" selection-start-column="61" selection-end-line="163" selection-end-column="61" />
+          <caret line="191" column="61" selection-start-line="191" selection-start-column="61" selection-end-line="191" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -712,10 +713,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/Teach_Redis_Candidate_Tweets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="522">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/Candidate_Tweet_Fetcher_Streaming.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tweet_Analysis/wordz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="116" column="37" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
+          <folding>
+            <element signature="e#108#139#0" expanded="true" />
           </folding>
         </state>
       </provider>
