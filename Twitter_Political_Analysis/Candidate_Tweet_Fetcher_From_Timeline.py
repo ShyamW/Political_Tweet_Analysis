@@ -74,7 +74,6 @@ def outputTweets(candidate_tweets):
         out.write(str(output_data) + '\n')
 
 
-
 """Gets tweets from timeline, gets metadata, and processes them.
 @requires
     successful login to Twitter
