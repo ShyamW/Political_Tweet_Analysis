@@ -26,11 +26,13 @@ class TweetAnalysis:
         @param tweet
             tweet to format
         @return formatted_tweet"""
-
     def formatTweet(self, tweet):
-        forbidden_characters = [',', '.', ':', '"', '(', ')']
+        forbidden_characters = [',', '.', ':', '"', '(', ')', '!', '-', '&amp;', ';', '']
         for forbidden_character in forbidden_characters:
             tweet = str(tweet.replace(forbidden_character, ''))
+        unimportant_words = [' and ', ' the ', ' to ', ' a ', ' do ', ' be ', ' on ', ' is ', ' in ', ' of ']
+        for unimportant_word in unimportant_words:
+            tweet = str(tweet.replace(unimportant_word, ' '))
         if 'http' in tweet:
             tweet = tweet.split('http')[0]  # remove tweet content after url
         formatted_tweet = tweet.replace('\n', '').strip('\r').replace('  ', ' ').upper().lstrip().rstrip()
@@ -114,14 +116,18 @@ class TweetAnalysis:
 
 
 
-def getTop10Words(word_freq, author):
+def getTop15Words(word_freq, author):
     print author
     word_freq = sorted(word_freq.items(), key=operator.itemgetter(1))
-    print word_freq
-
-    # plt.bar(range(len(word_freq)), word_freq.values(), align='center')
-    # plt.xticks(range(len(word_freq)), word_freq.keys())
-    # plt.show()
+    word_freq = word_freq[len(word_freq)-15:]
+    words = []
+    word_counts = []
+    for word, word_count in word_freq:
+        words.append(word)
+        word_counts.append(word_count)
+    plt.bar(range(len(word_counts)), word_counts, align='center')
+    plt.xticks(range(len(words)), words)
+    plt.show()
 
 
 def main():
@@ -133,7 +139,7 @@ def main():
     test.detWordFrequencies()
     candidates_word_maps = test.getWordFrequencies()
     for author, word_freq in candidates_word_maps.items():
-        getTop10Words(word_freq, author)
+        getTop15Words(word_freq, author)
 
 
 if __name__ == '__main__':

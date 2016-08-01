@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc97e4f-439e-467e-a009-e8e83b3ecf85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tweet_Analysis/wordz.py" afterPath="$PROJECT_DIR$/Tweet_Analysis/wordz.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/log.txt" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/log.txt" />
     </list>
     <ignored path="TwitterApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,8 +58,8 @@
       <file leaf-file-name="wordz.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tweet_Analysis/wordz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="116" column="37" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
+            <state relative-caret-position="470">
+              <caret line="135" column="27" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="27" />
               <folding>
                 <element signature="e#108#139#0" expanded="true" />
               </folding>
@@ -721,6 +717,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/Candidate_Tweet_Fetcher_Streaming.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -731,18 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tweet_Analysis/wordz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="116" column="37" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
+        <state relative-caret-position="470">
+          <caret line="135" column="27" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="27" />
           <folding>
             <element signature="e#108#139#0" expanded="true" />
           </folding>
