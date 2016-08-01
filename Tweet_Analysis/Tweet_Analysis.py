@@ -44,8 +44,8 @@ class TweetAnalysis:
         Matrix representing aggregated tweet data
         Matrix = [[tweet, date, author, tweet location], ..., [tweet, date, author, tweet location]]"""
     def createTweetLists(self):
-        with open(self.file_name, 'r') as data_file:
-            for tweet_info in data_file:
+        with open(self.file_name, 'r') as tweets_file:
+            for tweet_info in tweets_file:
                 tweet_info = eval(tweet_info.strip('\n'))   # Convert line (list literal) to list
                 tweet_info[0] = self.formatTweet(tweet_info[0])
                 print tweet_info
@@ -95,14 +95,20 @@ class TweetAnalysis:
 
 
     """Gets the tweet word frequency dictionary.
-        @param self
-            Tweet Analysis object
-        @return word frequency dictionary"""
+    @param self
+        Tweet Analysis object
+    @return word frequency dictionary"""
     def getWordFrequencies(self):
         return self.word_frequencies
 
 
-    """Returns dictionary of word frequencies for an individual Tweet"""
+    """Returns dictionary of word frequencies for an individual Tweet
+    @param self
+        Tweet Analysis object
+    @param tweet
+        Tweet to analyze
+    @param author
+        name of candidate"""
     def detTweetWordFreq(self, tweet, author):
         word_frequencies = self.word_frequencies[author]
         all_words = tweet.split(' ')
