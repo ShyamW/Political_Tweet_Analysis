@@ -1,6 +1,4 @@
 """ find word frequencies, word clouds, what words candidates end tweets with, remove punctuation later """
-import matplotlib.pyplot as plt
-import operator
 
 class TweetAnalysis:
     def __init__(self):
@@ -113,34 +111,3 @@ class TweetAnalysis:
                     word_frequencies[word] += 1
                 else:
                     word_frequencies[word] = 1
-
-
-
-def getTop15Words(word_freq, author):
-    print author
-    word_freq = sorted(word_freq.items(), key=operator.itemgetter(1))
-    word_freq = word_freq[len(word_freq)-15:]
-    words = []
-    word_counts = []
-    for word, word_count in word_freq:
-        words.append(word)
-        word_counts.append(word_count)
-    plt.bar(range(len(word_counts)), word_counts, align='center')
-    plt.xticks(range(len(words)), words)
-    plt.show()
-
-
-def main():
-    test = TweetAnalysis()
-    test.setFilePath('/home/dragon/Programs/TwitterApp/Twitter_Political_Analysis/candidate_tweets.txt')
-    test.createTweetLists()
-    test.detTweetFrequencies()
-    print test.getTweetFrequencies()
-    test.detWordFrequencies()
-    candidates_word_maps = test.getWordFrequencies()
-    for author, word_freq in candidates_word_maps.items():
-        getTop15Words(word_freq, author)
-
-
-if __name__ == '__main__':
-    main()
