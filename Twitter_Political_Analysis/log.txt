@@ -1493,3 +1493,27 @@ A Candidate's Tweet has been Found
 	2016-08-01 19:25:18-04
 realDonaldTrump
 A Candidate's Tweet has been Found
+	2016-08-01 20:02:10-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-01 21:17:31-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-01 21:33:53-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-01 21:40:44-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-01 21:57:30-04
+tedcruz
+A Candidate's Tweet has been Found
+	2016-08-01 21:58:56-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-01 22:02:05-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-01 22:22:50-04
+realDonaldTrump
+A Candidate's Tweet has been Found
