@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fc97e4f-439e-467e-a009-e8e83b3ecf85" name="Default" comment="" />
+    <list default="true" id="4fc97e4f-439e-467e-a009-e8e83b3ecf85" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/log.txt" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/log.txt" />
+    </list>
     <ignored path="TwitterApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Candidate_Tweet_Fetcher_Streaming.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Candidate_Tweet_Fetcher_Streaming.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/Candidate_Tweet_Fetcher_Streaming.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="270">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -33,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tweet_Analysis.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tweet_Analysis.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tweet_Analysis/Tweet_Analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
+            <state relative-caret-position="542">
               <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
               <folding />
             </state>
@@ -81,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="241" column="61" selection-start-line="241" selection-start-column="61" selection-end-line="241" selection-end-column="61" />
+              <caret line="292" column="61" selection-start-line="292" selection-start-column="61" selection-end-line="292" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -125,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/log.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2568">
-              <caret line="1355" column="7" selection-start-line="1355" selection-start-column="7" selection-end-line="1355" selection-end-column="7" />
+              <caret line="1508" column="7" selection-start-line="1508" selection-start-column="7" selection-end-line="1508" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -277,7 +280,7 @@
       <recent name="$PROJECT_DIR$/Twitter_Political_Analysis" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Candidate_Tweet_Fetcher_Streaming">
+  <component name="RunManager" selected="Python.Analyze_Twitter_Data">
     <configuration default="false" name="Candidate_Tweet_Fetcher_Streaming" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -506,9 +509,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Candidate_Tweet_Fetcher_Streaming" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Analyze_Twitter_Data" />
-        <item index="2" class="java.lang.String" itemvalue="Python.wordz" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Analyze_Twitter_Data" />
+        <item index="1" class="java.lang.String" itemvalue="Python.wordz" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Candidate_Tweet_Fetcher_Streaming" />
         <item index="3" class="java.lang.String" itemvalue="Python.test" />
         <item index="4" class="java.lang.String" itemvalue="Python.Teach_Redis_Candidate_Tweets" />
       </list>
@@ -671,14 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="241" column="61" selection-start-line="241" selection-start-column="61" selection-end-line="241" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Candidate_Tweet_Machine_Learning/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -713,14 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tweet_Analysis/Tweet_Analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tweet_Analysis/Analyze_Twitter_Data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -734,7 +721,7 @@
     <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2568">
-          <caret line="1355" column="7" selection-start-line="1355" selection-start-column="7" selection-end-line="1355" selection-end-column="7" />
+          <caret line="1508" column="7" selection-start-line="1508" selection-start-column="7" selection-end-line="1508" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -761,11 +748,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/Candidate_Tweet_Fetcher_Streaming.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="270">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="292" column="61" selection-start-line="292" selection-start-column="61" selection-end-line="292" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tweet_Analysis/Tweet_Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>

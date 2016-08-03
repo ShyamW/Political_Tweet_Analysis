@@ -1653,3 +1653,27 @@ A Candidate's Tweet has been Found
 	2016-08-02 19:39:28-04
 marcorubio
 A Candidate's Tweet has been Found
+	2016-08-02 19:46:04-04
+marcorubio
+A Candidate's Tweet has been Found
+	2016-08-02 20:02:13-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-02 20:17:22-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-02 20:57:58-04
+marcorubio
+A Candidate's Tweet has been Found
+	2016-08-02 21:54:10-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-02 22:06:55-04
+marcorubio
+A Candidate's Tweet has been Found
+	2016-08-02 22:30:12-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-02 22:51:09-04
+realDonaldTrump
+A Candidate's Tweet has been Found
