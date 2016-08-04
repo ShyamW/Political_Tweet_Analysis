@@ -1836,3 +1836,19 @@ A Candidate's Tweet has been Found
 	2016-08-03 21:26:25-04
 HillaryClinton
 A Candidate's Tweet has been Found
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Application Ran at: 2016-08-03 22:01:47-04
+	Will Read From Config
+	Successfully read Config File
+	Will Log into Twitter
+	Successfully Logged into Twitter
+	Will Stream Tweets from Twitter
+	2016-08-03 22:17:39-04
+JohnKasich
+A Candidate's Tweet has been Found
+	2016-08-03 22:28:02-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-03 22:30:42-04
+tedcruz
+A Candidate's Tweet has been Found

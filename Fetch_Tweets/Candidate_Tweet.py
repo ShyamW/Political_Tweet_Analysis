@@ -1,8 +1,8 @@
 import Log
 from datetime import *
 
-class CandidateTweet():
 
+class CandidateTweet():
     def __init__(self, timeline_tweet):
         self.date_time = str(datetime.now().strftime("%Y-%m-%d %H:%M:%S") + "-04")
         Log.record('\t' + self.date_time)

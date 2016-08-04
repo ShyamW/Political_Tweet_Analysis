@@ -1,7 +1,9 @@
 import matplotlib.pyplot as plt
 import operator
 from Tweet_Analysis import TweetAnalysis
-
+"""This Module Analyzes Twitter data stored in candidate_tweets.txt by creating an old-style bar graph plot and word map.
+@author Shyam Thiagarajan
+"""
 
 """Plots Word Counts of each candidate on bar graph
 @param top_15_words
@@ -16,6 +18,9 @@ def plotWordCounts(top_15_words, author):
         word_counts.append(word_count)
     plt.bar(range(len(word_counts)), word_counts, align='center')
     plt.xticks(range(len(words)), words)
+    plt.ylabel("Word Frequency (Number of Uses)")
+    plt.xlabel("Top Used Words")
+    plt.title("@" + author + "'s most commonly tweeted words")
     plt.show()
 
 
@@ -26,7 +31,7 @@ def plotWordCounts(top_15_words, author):
     ordered dictionary of top 15 words for candidate"""
 def getTop15Words(word_freq):
     word_freq = sorted(word_freq.items(), key=operator.itemgetter(1))
-    top_15_words = word_freq[len(word_freq)-15:]
+    top_15_words = word_freq[len(word_freq)-15:]  # get top 15 words
     return top_15_words
 
 
@@ -35,14 +40,15 @@ def getTop15Words(word_freq):
     JSON object containing words and word counts for each candidate"""
 def processResults(candidates_word_maps):
     for author, word_freq in candidates_word_maps.items():
-        top_15_words = getTop15Words(word_freq)
-        plotWordCounts(top_15_words, author)
+        if 'Donald' in author or 'HillaryClinton' in author:
+            top_15_words = getTop15Words(word_freq)
+            plotWordCounts(top_15_words, author)
 
 
 """Main Method"""
 def main():
     test = TweetAnalysis()
-    test.setFilePath('/home/dragon/Programs/TwitterApp/Twitter_Political_Analysis/candidate_tweets.txt')
+    test.setFilePath('../Fetch_Tweets/candidate_tweets.txt')
     test.createTweetLists()
     test.detTweetFrequencies()
     print test.getTweetFrequencies()
