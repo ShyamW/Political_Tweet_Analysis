@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fc97e4f-439e-467e-a009-e8e83b3ecf85" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/candidate_tweets.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitter_Political_Analysis/log.txt" afterPath="$PROJECT_DIR$/Twitter_Political_Analysis/log.txt" />
-    </list>
+    <list default="true" id="4fc97e4f-439e-467e-a009-e8e83b3ecf85" name="Default" comment="" />
     <ignored path="TwitterApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
