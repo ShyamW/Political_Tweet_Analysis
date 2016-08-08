@@ -79,8 +79,8 @@
       <file leaf-file-name="candidate_tweets.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fetch_Tweets/candidate_tweets.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="857" column="30" selection-start-line="857" selection-start-column="30" selection-end-line="857" selection-end-column="30" />
+            <state relative-caret-position="760">
+              <caret line="885" column="19" selection-start-line="885" selection-start-column="19" selection-end-line="885" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -704,8 +704,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fetch_Tweets/candidate_tweets.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="857" column="30" selection-start-line="857" selection-start-column="30" selection-end-line="857" selection-end-column="30" />
+        <state relative-caret-position="760">
+          <caret line="885" column="19" selection-start-line="885" selection-start-column="19" selection-end-line="885" selection-end-column="19" />
           <folding />
         </state>
       </provider>
