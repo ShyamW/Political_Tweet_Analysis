@@ -2427,3 +2427,229 @@ A Candidate's Tweet has been Found
 	2016-08-08 18:20:36-04
 realDonaldTrump
 A Candidate's Tweet has been Found
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Application Ran at: 2016-08-09 20:02:11-04
+	Will Read From Config
+	Successfully read Config File
+	Will Log into Twitter
+	Successfully Logged into Twitter
+	Will Stream Tweets from Twitter
+	2016-08-09 20:05:00-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-09 20:17:33-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-09 20:18:17-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-09 20:18:51-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-09 21:11:44-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-09 21:24:09-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-09 21:49:52-04
+JebBush
+A Candidate's Tweet has been Found
+	2016-08-09 22:12:50-04
+JohnKasich
+A Candidate's Tweet has been Found
+	2016-08-09 22:21:17-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-09 23:02:19-04
+tedcruz
+A Candidate's Tweet has been Found
+	2016-08-10 08:50:29-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-10 09:03:12-04
+JohnKasich
+A Candidate's Tweet has been Found
+	2016-08-10 09:05:29-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-10 09:46:15-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-10 10:43:35-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-10 10:47:08-04
+tedcruz
+A Candidate's Tweet has been Found
+	2016-08-10 10:48:20-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 11:08:07-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-10 11:20:37-04
+JohnKasich
+A Candidate's Tweet has been Found
+	2016-08-10 11:21:39-04
+tedcruz
+A Candidate's Tweet has been Found
+	2016-08-10 11:34:37-04
+tedcruz
+A Candidate's Tweet has been Found
+	2016-08-10 11:36:37-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-10 11:37:31-04
+BarackObama
+A Candidate's Tweet has been Found
+	2016-08-10 12:15:31-04
+tedcruz
+A Candidate's Tweet has been Found
+	2016-08-10 12:15:40-04
+tedcruz
+A Candidate's Tweet has been Found
+	2016-08-10 12:15:44-04
+tedcruz
+A Candidate's Tweet has been Found
+	2016-08-10 12:26:19-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-10 13:01:43-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 13:36:53-04
+BarackObama
+A Candidate's Tweet has been Found
+	2016-08-10 13:43:31-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-10 13:50:00-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-10 13:54:59-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-10 14:01:18-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 14:10:29-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-10 15:29:01-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 15:33:40-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 15:36:21-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 15:37:31-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 15:37:33-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-10 15:40:11-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 15:40:48-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 15:43:38-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 15:50:04-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 15:51:52-04
+tedcruz
+A Candidate's Tweet has been Found
+	2016-08-10 15:57:15-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-10 16:01:47-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-10 16:04:24-04
+tedcruz
+A Candidate's Tweet has been Found
+	2016-08-10 16:27:02-04
+BarackObama
+A Candidate's Tweet has been Found
+	2016-08-10 16:38:04-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-10 16:49:39-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-10 16:54:48-04
+JohnKasich
+A Candidate's Tweet has been Found
+	2016-08-10 17:07:07-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-10 17:07:08-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 17:16:28-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 17:27:45-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 17:38:13-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-10 17:38:28-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 17:48:26-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 18:01:09-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 18:12:17-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 19:17:15-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-10 19:24:57-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-10 19:36:41-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-10 19:37:58-04
+tedcruz
+A Candidate's Tweet has been Found
+	2016-08-10 19:38:21-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-10 20:01:37-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 20:46:39-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-10 20:58:56-04
+HillaryClinton
+A Candidate's Tweet has been Found
+	2016-08-10 21:23:09-04
+BernieSanders
+A Candidate's Tweet has been Found
+	2016-08-10 21:53:24-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-10 22:07:13-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-10 22:12:08-04
+realDonaldTrump
+A Candidate's Tweet has been Found
+	2016-08-10 22:39:53-04
+HillaryClinton
+A Candidate's Tweet has been Found
