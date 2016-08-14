@@ -2,3 +2,5 @@
 *.ini
 # File Backups
 *~
+# Compiled Python
+*.pyc
