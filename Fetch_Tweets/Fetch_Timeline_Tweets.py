@@ -64,7 +64,7 @@ def logEvents():
     list of candidate's tweets
 @updates output file content"""
 def outputTweets(candidate_tweets):
-    out = open('candidate_tweets.txt', 'a')
+    out = open('Data/candidate_tweets.txt', 'a')
     for tweet in candidate_tweets:
         post = tweet.text
         date_time = tweet.date_time

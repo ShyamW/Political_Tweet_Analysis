@@ -8,6 +8,6 @@
     String to be recorded"""
 def record(text):
     print(text)
-    out = open('log.txt', 'a')
+    out = open('Data/log.txt', 'a')
     out.write(text + '\n')
     out.close()

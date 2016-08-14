@@ -48,7 +48,7 @@ def processResults(candidates_word_maps):
 """Main Method"""
 def main():
     test = TweetAnalysis()
-    test.setFilePath('../Fetch_Tweets/candidate_tweets.txt')
+    test.setFilePath('../Fetch_Tweets/Data/candidate_tweets.txt')
     test.createTweetLists()
     test.detTweetFrequencies()
     print test.getTweetFrequencies()
