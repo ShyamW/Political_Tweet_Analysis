@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fc97e4f-439e-467e-a009-e8e83b3ecf85" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fetch_Tweets/.Candidate_Tweet.py.swp" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fetch_Tweets/candidate_tweets.txt" afterPath="$PROJECT_DIR$/Fetch_Tweets/Data/candidate_tweets.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fetch_Tweets/log.txt" afterPath="$PROJECT_DIR$/Fetch_Tweets/Data/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fetch_Tweets/Fetch_Timeline_Tweets.py" afterPath="$PROJECT_DIR$/Fetch_Tweets/Fetch_Timeline_Tweets.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fetch_Tweets/Log.py" afterPath="$PROJECT_DIR$/Fetch_Tweets/Log.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tweet_Analysis/Analyze_Twitter_Data.py" afterPath="$PROJECT_DIR$/Tweet_Analysis/Analyze_Twitter_Data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tweet_Analysis/Tweet_Analysis.py" afterPath="$PROJECT_DIR$/Tweet_Analysis/Tweet_Analysis.py" />
-    </list>
+    <list default="true" id="4fc97e4f-439e-467e-a009-e8e83b3ecf85" name="Default" comment="" />
     <ignored path="TwitterApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
