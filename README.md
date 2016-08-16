@@ -1,6 +1,6 @@
 # Documentation
 
-This Python project fetches and streams political tweets and analyzes each poloitician's tweets through graphs and wordmaps.
+This Python project fetches and streams political tweets and analyzes each politician's tweets through graphs and wordmaps.
 
 ###### Analyzed rhetoric elements include:
  * diction (word choice and frequency)

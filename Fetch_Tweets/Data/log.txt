@@ -2857,3 +2857,7 @@ A Candidate's Tweet has been Found
 	2016-08-11 19:07:33-04
 tedcruz
 A Candidate's Tweet has been Found
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Application Ran at: 2016-08-16 14:04:27-04
+	Will Read From Config
+INCORRECT Config, Application will now quit
