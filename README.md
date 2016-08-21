@@ -1,15 +1,33 @@
 # Documentation
 
 This Python project fetches and streams political tweets and analyzes each politician's tweets through graphs and wordmaps.
-<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <title></title>
+    <style>
+    div.container {
+      display:inline-block;
+    }
+
+    p {
+      text-align:center;
+    }
+    </style>
 </head>
 <body>
-    <img alt="some_text" src=
-    "http://i2.cdn.turner.com/cnnnext/dam/assets/150811084058-donald-trump-debate-file-super-169.jpg"
-    style="width:100;height:200;">
+    <div class="container">
+        <img height="200" src=
+        "http://russia-insider.com/sites/insider/files/hillary-clinton-thumbs-up.jpg"
+        width="200">
+        <p>This is image 1</p>
+    </div>
+    <div class="container">
+        <img height="200" src=
+        "http://i2.cdn.turner.com/cnnnext/dam/assets/150811084058-donald-trump-debate-file-super-169.jpg"
+        width="200">
+        <p>This is image 2</p>
+    </div>
 </body>
 </html>
 #### Analyzed rhetoric elements include:
