@@ -1,7 +1,17 @@
 # Documentation
 
 This Python project fetches and streams political tweets and analyzes each politician's tweets through graphs and wordmaps.
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <img alt="some_text" src=
+    "http://i2.cdn.turner.com/cnnnext/dam/assets/150811084058-donald-trump-debate-file-super-169.jpg"
+    style="width:100;height:200;">
+</body>
+</html>
 #### Analyzed rhetoric elements include:
  * diction (word choice and frequency)
  * syllables
@@ -40,7 +50,7 @@ This Python project fetches and streams political tweets and analyzes each polit
     * Used to stream and fetch tweets. Unnecessary for Analyzing tweets.
 
             pip install tweepy
-            
+
 #### Requirements to Analyze Tweets
 1. [matplotlib (Optional)](http://matplotlib.org/downloads.html)
     * Used to create graphs
@@ -49,5 +59,7 @@ This Python project fetches and streams political tweets and analyzes each polit
 
 2. [TkInter (Optional)](https://wiki.python.org/moin/TkInter)
     * Used in graph creation
+
+            sudo apt-get install python python-tk
 
 
