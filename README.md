@@ -1,22 +1,7 @@
 # Documentation
 
 This Python project fetches and streams political tweets and analyzes each politician's tweets through graphs and wordmaps.
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-    <img alt="some_text" src=
-    "http://i2.cdn.turner.com/cnnnext/dam/assets/150811084058-donald-trump-debate-file-super-169.jpg"
-    style="width:100;height:200;">
-</body>
-<body>
-    <img alt="some_text" src=
-    "http://russia-insider.com/sites/insider/files/hillary-clinton-thumbs-up.jpg"
-    style="width:100;height:200;">
-</body>
-</html>
+
 #### Analyzed rhetoric elements include:
  * diction (word choice and frequency)
  * syllables
@@ -33,6 +18,17 @@ This Python project fetches and streams political tweets and analyzes each polit
 * Bernie Sanders (@BernieSanders)
 * Marco Rubio (@marorubio)
 * President Obama (@POTUS and @BarrackObama)
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <img alt="some_text" src=
+    "http://i2.cdn.turner.com/cnnnext/dam/assets/150811084058-donald-trump-debate-file-super-169.jpg"
+    style="width:100;height:200;">
+</body>
+</html>
 
 #### Basic Requirements:
 1. [Python 2.X (Required)](https://www.python.org/downloads/)
