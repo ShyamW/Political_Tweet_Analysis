@@ -40,6 +40,7 @@ This Python project fetches and streams political tweets and analyzes each polit
     * Used to stream and fetch tweets. Unnecessary for Analyzing tweets.
 
             pip install tweepy
+            
 ##### Requirements to Analyze Tweets
 1. [matplotlib (Optional)](http://matplotlib.org/downloads.html)
     * Used to create graphs
