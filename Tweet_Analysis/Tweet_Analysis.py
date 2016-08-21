@@ -1,5 +1,8 @@
 """This class formats raw tweets (removes punctuation and  trivial words like 'a') and determines commonly used words
-by candidates word frequencies """
+by candidates word frequencies
+
+@author
+    Shyam Thiagarajan"""
 
 class TweetAnalysis:
     def __init__(self):

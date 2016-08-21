@@ -10,7 +10,7 @@ import sys
 Shyam Thiagarajan
 
 Python Program that fetches past tweets from a timeline of political candidates and records tweets and relevant metadata
-(author and timestamp) for future analysis.
+(datetime, tweet content, author, and source_loc) for future analysis.
 """
 class Past_Tweets():
     def __init__(self):
@@ -69,10 +69,6 @@ class Past_Tweets():
             location = tweet.source_loc
             output_data = [post, date_time, author, location]
             out.write(str(output_data) + '\n')
-            print '!'
-            print output_data
-            print '!'
-            print output_data
 
 
     """Gets tweets from timeline, gets metadata, and processes them.
@@ -80,7 +76,6 @@ class Past_Tweets():
         successful login to Twitter
     """
     def findAndProcessTweets(self):
-        global candidate_tweets
         self.candidate_tweets = []
         Log.record('\tWill Read From Config')
         self.readFromConfig()

@@ -18,7 +18,6 @@ class Streaming_Tweets():
         self.consumer_secret = ''
         self.key = ''
         self.secret = ''
-        self.tweet_count = 0
 
 
     """Reads parameters specified in config file. If no config file found, program will terminate.
