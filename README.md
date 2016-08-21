@@ -24,17 +24,29 @@ This Python project fetches and streams political tweets and analyzes each polit
 	* Python 2.7 recommended
 
 			sudo apt-get install python
+
 2. [ConfigParser (Required)](https://pypi.python.org/pypi/configparser)
 	* Used to Read API Key information
 
         	pip install ConfigParser
+
 3. [datetime (Required)](https://pypi.python.org/pypi/DateTime)
 	* Used to Get Python Standardized time (included in python 2.7)
 
         	pip install datetime
-4. [tweepy (Optional)](http://docs.tweepy.org/en/v3.5.0/install.html)
-    * Used to stream and fetch tweets. Unnecesary for Analyzing tweets.
+
+##### Requirements to Fetch and Stream Tweets
+1. [tweepy (Optional)](http://docs.tweepy.org/en/v3.5.0/install.html)
+    * Used to stream and fetch tweets. Unnecessary for Analyzing tweets.
 
             pip install tweepy
+##### Requirements to Analyze Tweets
+1. [matplotlib (Optional)](http://matplotlib.org/downloads.html)
+    * Used to create graphs
+
+            pip install matplotlib
+
+2. [https://wiki.python.org/moin/TkInter (Optional)](https://wiki.python.org/moin/TkInter)
+    * Used in graph creation
 
 
