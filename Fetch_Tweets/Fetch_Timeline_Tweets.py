@@ -69,6 +69,10 @@ class Past_Tweets():
             location = tweet.source_loc
             output_data = [post, date_time, author, location]
             out.write(str(output_data) + '\n')
+            print '!'
+            print output_data
+            print '!'
+            print output_data
 
 
     """Gets tweets from timeline, gets metadata, and processes them.
@@ -77,7 +81,7 @@ class Past_Tweets():
     """
     def findAndProcessTweets(self):
         global candidate_tweets
-        candidate_tweets = []
+        self.candidate_tweets = []
         Log.record('\tWill Read From Config')
         self.readFromConfig()
         Log.record('\tWill Log into Twitter')
@@ -87,9 +91,9 @@ class Past_Tweets():
         Log.record('\tSuccesfully Fetched Tweets from Twitter')
         for timeline_tweet in timeline:
             tweet = Candidate_Tweet(timeline_tweet)
-            candidate_tweets.append(tweet)
+            self.candidate_tweets.append(tweet)
             Log.record('\tPolitical Tweet Found!' + '\n\t' + '-'*30)
-        self.outputTweets(candidate_tweets)
+        self.outputTweets()
 
 
 
