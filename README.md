@@ -2,13 +2,13 @@
 
 This Python project fetches and streams political tweets and analyzes each politician's tweets through graphs and wordmaps.
 
-###### Analyzed rhetoric elements include:
+##### Analyzed rhetoric elements include:
  * diction (word choice and frequency)
  * syllables
  * tweet time
  * tweet frequency
 
-###### This Project fetches tweets from several famous political candidates including:
+##### This Project fetches tweets from several famous political candidates including:
 * Donald Trump (@realDonaldTrump)
 * Hillary Clinton (@HillaryClinton)
 * Jeb Bush (@JebBush)
@@ -19,7 +19,7 @@ This Python project fetches and streams political tweets and analyzes each polit
 * Marco Rubio (@marorubio)
 * President Obama (@POTUS and @BarrackObama)
 
-###### Basic Requirements:
+##### Basic Requirements:
 1. [Python 2.X (Required)](https://www.python.org/downloads/)
 	* Python 2.7 recommended
 
