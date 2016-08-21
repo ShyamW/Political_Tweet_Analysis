@@ -26,7 +26,7 @@ This Python project fetches and streams political tweets and analyzes each polit
 <body>
     <img alt="some_text" src=
     "http://i2.cdn.turner.com/cnnnext/dam/assets/150811084058-donald-trump-debate-file-super-169.jpg"
-    style="width:100;height:200;">
+    style="width:20;height:20;">
 </body>
 </html>
 
