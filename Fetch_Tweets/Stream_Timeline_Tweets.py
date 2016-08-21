@@ -66,7 +66,7 @@ class Streaming_Tweets():
         Log.record('\tWill Log into Twitter')
         api = self.loginToTwitter()
         Log.record('\tWill Stream Tweets from Twitter')
-        stream = Stream(api.auth, StdOutListener())
+        stream = Stream(self.api.auth, StdOutListener())
         stream.userstream('survey11909')
 
 
