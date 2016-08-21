@@ -47,7 +47,7 @@ This Python project fetches and streams political tweets and analyzes each polit
 
             pip install matplotlib
 
-2. [https://wiki.python.org/moin/TkInter (Optional)](https://wiki.python.org/moin/TkInter)
+2. [TkInter (Optional)](https://wiki.python.org/moin/TkInter)
     * Used in graph creation
 
 
