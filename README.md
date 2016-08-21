@@ -19,16 +19,6 @@ This Python project fetches and streams political tweets and analyzes each polit
 * Marco Rubio (@marorubio)
 * President Obama (@POTUS and @BarrackObama)
 
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-    <img alt="some_text" src=
-    "http://i2.cdn.turner.com/cnnnext/dam/assets/150811084058-donald-trump-debate-file-super-169.jpg"
-    style="width:20;height:20;">
-</body>
-</html>
 
 #### Basic Requirements:
 1. [Python 2.X (Required)](https://www.python.org/downloads/)
