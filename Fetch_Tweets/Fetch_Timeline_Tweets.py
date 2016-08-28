@@ -103,7 +103,7 @@ class Past_Tweets():
 
 
 if __name__ == '__main__':
-    twitter = Past_Tweets()
-    twitter.fetch()
+    candidate_tweets = Past_Tweets()
+    candidate_tweets.fetch()
 
 
