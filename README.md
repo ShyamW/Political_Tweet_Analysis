@@ -4,8 +4,8 @@ This Python project fetches and streams political tweets and analyzes each polit
 
 #### Analyzed rhetoric elements include:
  * diction (word choice and frequency)
- * syllables
- * tweet time
+ * syllables (in future)
+ * tweet time (in future)
  * tweet frequency
 
 #### This Project fetches tweets from several famous political candidates including:
