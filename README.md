@@ -2,8 +2,6 @@
 
 This Python project fetches and streams political tweets and analyzes each politician's tweets through graphs and wordclouds (coming soon).
 
-![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Documentation/Trump_Tweets.png)
-
 #### Analyzed rhetoric elements include:
  * diction (word choice and frequency)
  * syllables (in future)
@@ -21,6 +19,8 @@ This Python project fetches and streams political tweets and analyzes each polit
 * Marco Rubio (@marorubio)
 * President Obama (@POTUS and @BarrackObama)
 
+#### Screenshots
+![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Documentation/Trump_Tweets.png)
 
 #### Basic Requirements:
 1. [Python 2.X (Required)](https://www.python.org/downloads/)
