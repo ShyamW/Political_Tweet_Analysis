@@ -1,6 +1,8 @@
 # Documentation
 
-This Python project fetches and streams political tweets and analyzes each politician's tweets through graphs and wordmaps.
+This Python project fetches and streams political tweets and analyzes each politician's tweets through graphs and wordclouds (coming soon).
+
+![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Documentation/Trump_Tweets.png)
 
 #### Analyzed rhetoric elements include:
  * diction (word choice and frequency)
@@ -52,5 +54,6 @@ This Python project fetches and streams political tweets and analyzes each polit
     * Used in graph creation
 
             sudo apt-get install python python-tk
+
 
 
