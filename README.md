@@ -1,6 +1,9 @@
 # Documentation
 
-This Python project fetches and streams political tweets and analyzes each politician's tweets through graphs and wordclouds (coming soon).
+This Python project fetches and streams political tweets and analyzes each tweet through graphs and wordclouds.
+#### Screenshots
+![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Documentation/Trump_Tweet.png)
+![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Documentation/Trump_Tweets.png) 
 
 #### Analyzed rhetoric elements include:
  * diction (word choice and frequency)
@@ -19,9 +22,6 @@ This Python project fetches and streams political tweets and analyzes each polit
 * Marco Rubio (@marorubio)
 * President Obama (@POTUS and @BarrackObama)
 
-#### Screenshots
-![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Documentation/Trump_Tweets.png)
-
 #### Basic Requirements:
 1. [Python 2.X (Required)](https://www.python.org/downloads/)
 	* Python 2.7 recommended
@@ -39,13 +39,13 @@ This Python project fetches and streams political tweets and analyzes each polit
         	pip install datetime
 
 #### Requirements to Fetch and Stream Tweets
-1. [tweepy (Optional)](http://docs.tweepy.org/en/v3.5.0/install.html)
+1. [tweepy](http://docs.tweepy.org/en/v3.5.0/install.html)
     * Used to stream and fetch tweets. Unnecessary for Analyzing tweets.
 
             pip install tweepy
 
 #### Requirements to Analyze Tweets
-1. [matplotlib (Optional)](http://matplotlib.org/downloads.html)
+1. [matplotlib](http://matplotlib.org/downloads.html)
     * Used to create graphs
 
             pip install matplotlib
@@ -54,6 +54,17 @@ This Python project fetches and streams political tweets and analyzes each polit
     * Used in graph creation
 
             sudo apt-get install python python-tk
+
+3. [wordcloud](http://amueller.github.io/word_cloud/index.html)
+    * Used in wordcloud creation
+
+            sudo apt-get install wordcloud
+            
+3. [Image](http://www.pythonware.com/products/pil/)
+    * library required for wordcloud
+
+            sudo apt-get install Image
+            
 
 
 
