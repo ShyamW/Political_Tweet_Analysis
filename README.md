@@ -1,4 +1,4 @@
-# Documentation
+# Political Tweet Analysis
 
 This Python project fetches and streams political tweets and analyzes each tweet through graphs and wordclouds.
 
