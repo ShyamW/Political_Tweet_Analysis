@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+from wordcloud import WordCloud
 import operator
 from Tweet_Analysis import TweetAnalysis
 """This Module Analyzes Twitter data stored in candidate_tweets.txt by creating an old-style bar graph plot and word map.
@@ -35,12 +36,22 @@ def getTop15Words(word_freq):
     return top_15_words
 
 
+def plotWordCloud(word_freq, author):
+    wordcloud = WordCloud().generate_from_frequencies(word_freq.items())
+    # Open a plot of the generated image.
+    plt.imshow(wordcloud)
+    plt.axis("off")
+    plt.title("@" + author + "'s most commonly tweeted words")
+    plt.show()
+
+
 """Gets the top 15 words used by each candidates and then plots word count data.
 @param candidates_word_maps
     JSON object containing words and word counts for each candidate"""
 def processResults(candidates_word_maps):
     for author, word_freq in candidates_word_maps.items():
         if 'Donald' in author or 'HillaryClinton' in author:
+            plotWordCloud(word_freq, author)
             top_15_words = getTop15Words(word_freq)
             plotWordCounts(top_15_words, author)
 
