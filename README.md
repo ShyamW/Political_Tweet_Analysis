@@ -1,9 +1,7 @@
 # Documentation
 
 This Python project fetches and streams political tweets and analyzes each tweet through graphs and wordclouds.
-#### Screenshots
-![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Documentation/Trump_Tweet.png)
-![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Documentation/Trump_Tweets.png) 
+#### Screenshots 
 
 #### Analyzed rhetoric elements include:
  * diction (word choice and frequency)
@@ -64,7 +62,9 @@ This Python project fetches and streams political tweets and analyzes each tweet
     * library required for wordcloud
 
             sudo apt-get install Image
-            
+          
+![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Documentation/Trump_Tweet.png)
+![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Documentation/Trump_Tweets.png)
 
 
 
