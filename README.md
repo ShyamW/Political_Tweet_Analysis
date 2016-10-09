@@ -62,8 +62,8 @@ This Python project fetches and streams political tweets and analyzes each tweet
 
             sudo apt-get install Image
           
-![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Documentation/Trump_Tweet.png)
-![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Documentation/Trump_Tweets.png)
+![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Screenshots/Trump_Tweet.png)
+![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Screenshots/Trump_Tweets.png)
 
 
 
