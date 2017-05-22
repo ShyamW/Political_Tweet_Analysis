@@ -1,7 +1,7 @@
 # Political Tweet Analysis
 
 This Python project fetches and streams political tweets and analyzes each tweet through graphs and wordclouds.
-<img src="../Screenshots/Trum_Tweets.png" width="425"/> <img src="../Screenshots/Trum_Tweet.png" width="425"/>
+<img src="https://github.com/ShyamW/Political_Tweet_Analysis/blob/master/Screenshots/Trump_Tweet.png" width="425"/> <img src="https://github.com/ShyamW/Political_Tweet_Analysis/blob/master/Screenshots/Trump_Tweets.png" width="425"/>
 
 #### Analyzed rhetoric elements include:
  * diction (word choice and frequency)
