@@ -1,6 +1,8 @@
 # Political Tweet Analysis
 
-This Python project fetches and streams political tweets and analyzes each tweet through graphs and wordclouds.<img src="https://github.com/ShyamW/Political_Tweet_Analysis/blob/master/Screenshots/Trump_Tweet.png" width="700"/> <img src="https://github.com/ShyamW/Political_Tweet_Analysis/blob/master/Screenshots/Trump_Tweets.png" width="700"/>
+This Python project fetches and streams political tweets and analyzes each tweet through graphs and wordclouds.
+<img src="https://github.com/ShyamW/Political_Tweet_Analysis/blob/master/Screenshots/Trump_Tweet.png" width="700"/> <img src="https://github.com/ShyamW/Political_Tweet_Analysis/blob/master/Screenshots/Trump_Tweets.png" width="700"/>
+
 #### Analyzed rhetoric elements include:
  * diction (word choice and frequency)
  * syllables (in future)
@@ -61,8 +63,6 @@ This Python project fetches and streams political tweets and analyzes each tweet
 
             sudo apt-get install Image
           
-![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Screenshots/Trump_Tweet.png)
-![alt tag](https://raw.githubusercontent.com/shyamw/Political_Tweet_Analysis/master/Screenshots/Trump_Tweets.png)
 
 
 
