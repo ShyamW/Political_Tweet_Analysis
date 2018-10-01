@@ -1,4 +1,0 @@
-k
-hm
-mm
-github
